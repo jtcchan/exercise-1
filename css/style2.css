@@ -1,0 +1,218 @@
+/*****
+
+Off-white: #F6F6F6;
+Light Blue: #8594C6;
+Navy Blue: #596493;
+
+*****/
+
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400|Slabo+13px);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f6f6;
+  color: #592B27;
+  font-family: 'Quicksand', sans-serif;
+  margin: 30px auto;
+  max-width: 960px;
+  padding: 50px 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+article,
+footer {
+  max-width: 960px;
+}
+
+body > header nav {
+  background: rgba(255,255,255,0.8);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Slabo 13px', serif;
+  -webkit-font-smoothing: auto;
+}
+
+body > header h1,
+body > header h3 {
+  text-align: center;
+}
+
+body > header h1 {
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  color: #596493;
+  font-size: 96px;
+  margin-top: 50px;
+  padding-bottom:50px;
+  text-transform: uppercase;
+}
+
+body > header h1:after {
+  background: #f6f6f6;
+  color: rgb(109,120,167);
+  content: "\f219";
+  display: block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 60px;
+  left: 50%;
+  margin-left: -55px;
+  padding: 20px;
+  position: absolute;
+  z-index: 10;
+}
+
+body > header h3 {
+  color: #596493;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+header nav ul li {
+  border: 1px solid rgba(0,0,0,0);
+  color: #8594C6;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: -4px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+}
+
+header nav ul li:first-child {
+  background: rgba(10,15,55,0.05);
+  border-bottom: 4px solid #394473;
+  color: #596493 !important;
+}
+
+header nav ul li:hover {
+  color: #657486;
+}
+
+aside {
+  color: #8594C6;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+aside h3 {
+  display: none;
+}
+
+aside ul {
+  padding: 0;
+  margin: 10px auto;
+  list-style: none;
+}
+
+aside ul li {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 0;
+  text-rendering: auto;
+  transform: translate(0, 0);
+}
+
+aside ul li a {
+  color: #f6f6f6;
+  text-decoration: none;
+  transition: all 0.3s linear;
+}
+
+aside ul li a:hover {
+  color: #9F4B5B;
+}
+
+aside ul li:first-child a:before,
+aside ul li+li a:before,
+aside ul li:last-child a:before {
+  background: #596493;
+  border-radius: 25px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 30px;
+  height: 45px;
+  line-height: 45px;
+  margin: 10px;
+  text-align: center;
+  transition: all 0.3s linear;
+  vertical-align: middle;
+  width: 45px;
+}
+
+aside ul li:first-child:hover a:before,
+aside ul li+li:hover a:before,
+aside ul li:last-child:hover a:before {
+  color: #8994B3;
+}
+
+aside ul li:first-child a:before { content:"\f099";  }
+aside ul li+li a:before { content:"\f09a"; }
+aside ul li:last-child a:before { content:"\f09b"; }
+
+article {
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  color: #596493;
+  margin: 50px auto;
+  max-width: 600px;
+  padding: 40px 0 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+article:after {
+  background: #f6f6f6;
+  color: rgb(109,120,167);
+  content: "\f078";
+  display: block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 40px;
+  left: 50%;
+  margin-top: 10px;
+  margin-left: -45px;
+  padding: 20px;
+  position: absolute;
+  z-index: 10;
+}
+
+article h1 {
+  font-size: 30px;
+}
+
+article h4 {
+  color: #8594C6;
+}
+
+article img {
+  background: #fff;
+  box-shadow: 0 2px rgba(0,0,0,0.15);
+  padding: 15px;
+}
+
+footer {
+  color: #8594C6;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 150%;
+  margin: 0 auto;
+  max-width: 350px;
+  padding-top: 60px;
+  text-align: center;
+  text-transform: uppercase;;
+}
