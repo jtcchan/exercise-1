@@ -1,4 +1,4 @@
-var styleSwitcher = document.createElement("div")
+var styleSwitcher = document.createElement("div");
 styleSwitcher.className("style-switcher");
 document.body.appendChild(styleSwitcher);
 
