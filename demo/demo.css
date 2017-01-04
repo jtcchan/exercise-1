@@ -1,18 +1,19 @@
 .style-switcher {
   position: fixed;
-  top: 0;
-  left: 10px;
+  bottom: 0;
+  right: 10px;
 }
 
 .style-switcher .toggle {
   display: inline-block;
-  background: #cc9;
+  background: #ffc;
   border: 1px solid #996;
+  border-bottom: none;
   padding: 10px 15px;
-  margin-right: 10px;
+  margin-right: 5px;
   text-decoration: none;
 }
 
 .style-switcher .toggle:hover {
-  background: #ffc;
+  background: #dda;
 }
