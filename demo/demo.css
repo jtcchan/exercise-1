@@ -1,0 +1,12 @@
+.style-switcher {
+  position: fixed;
+  top: 0;
+  left: 10px;
+}
+
+.style-switcher .toggle {
+  display: inline-block;
+  background: #ffc;
+  padding: 10px 15px;
+  margin-right: 10px;
+}
