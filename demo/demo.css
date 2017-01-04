@@ -7,7 +7,7 @@
 }
 
 .demo-controls div {
-  color: #fff;
+  color: #fff !important;
   font: 16px/24px "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: bold;
   margin-bottom: 8px;
