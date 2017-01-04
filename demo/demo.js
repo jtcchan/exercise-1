@@ -1,5 +1,6 @@
 var styleSwitcher = document.createElement("div");
-styleSwitcher.className = "style-switcher";
+styleSwitcher.innerHTML = "<h3>Demo controls:</h3>"
+styleSwitcher.className = "demo-controls";
 document.body.appendChild(styleSwitcher);
 
 var switchStyle = function(){
