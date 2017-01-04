@@ -7,9 +7,10 @@ var switchStyle = function(){
   stylesheet.setAttribute("href", this.dataset.styleSrc);
 };
 
-for(var i = 0; i < 4; i++) {
+for(var i = 1; i < 4; i++) {
   var toggle = document.createElement("a")
   toggle.className("toggle");
+  toggle.innerHTML = "Switch to layout " + i;
   toggle.dataset.styleSrc = "style" + i + ".css";
   styleSwitcher.appendChild(toggle);
   document.addEventListner("click", switchStyle);
