@@ -1,7 +1,7 @@
-var styleSwitcher = document.createElement("div");
-styleSwitcher.innerHTML = "<h3>Demo controls:</h3>"
-styleSwitcher.className = "demo-controls";
-document.body.appendChild(styleSwitcher);
+var demoControls = document.createElement("div");
+demoControls.innerHTML = "<div>Demo controls:</div>";
+demoControls.className = "demo-controls";
+document.body.appendChild(demoControls);
 
 var switchStyle = function(){
   var stylesheet = document.getElementsByTagName("link")[0];
@@ -14,5 +14,5 @@ for(var i = 1; i < 4; i++) {
   toggle.innerHTML = "Switch to layout " + i;
   toggle.dataset.styleSrc = "css/style" + i + ".css";
   toggle.addEventListener("click", switchStyle);
-  styleSwitcher.appendChild(toggle);
+  demoControls.appendChild(toggle);
 };
