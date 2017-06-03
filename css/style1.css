@@ -33,12 +33,12 @@ nav ul li {
 aside {
   float: left;
   width: 350px;
+  margin-top: -10px;
 }
 
 article {
   margin-left:360px;
   margin-bottom: 20px;
-  margin-top: -10px;
 }
 
 footer {
